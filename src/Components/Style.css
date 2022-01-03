@@ -1,0 +1,81 @@
+
+.card{
+    width: 240px;
+    height: 195px;
+    border-radius: 5px;
+    background: rgb(230, 230, 236);
+    margin: 5px;
+    padding: 20px;
+    position: relative;
+}
+.body{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    
+}
+.btn-group{
+    display: flex;
+    
+}
+h6, p{
+    font-size: 14px;
+}
+.hsb{
+    border-radius: 29px;
+    width: 85px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.btnBlue{
+    border: 1px solid blue;
+    color: blue;
+    transition: .5s ease;
+    
+}
+.btnBlue:hover{
+    color: white;
+    background: blue;
+}
+
+.btnRed{
+    border: 1px solid red;
+    color: red;
+    transition: .5s ease;
+    margin-left: 10px;
+}
+.btnRed:hover{
+    color: white;
+    background: red;
+}
+
+.title{
+    font-size: 18px;
+}
+
+.h6Green{
+    color: #37bf75;
+}
+
+.h6Violet{
+    color: #b82589;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.1);
+    width: 100%;
+    left: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 4px 20px;
+    font-size: 10px;
+}
+/* search bar*/
+.topnav{
+    text-align: center;
+    margin: 20px;
+}
+  
+  
